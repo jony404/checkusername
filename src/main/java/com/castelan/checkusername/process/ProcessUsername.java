@@ -157,9 +157,6 @@ public class ProcessUsername {
     private String generateUsrNumbersRandom(String str) {
         int s = generateRandom(100);
         String tmp = str+s;
-        while(containsRestrictedWord(str)) {
-            
-        }
         return str + s;
     }
 
